@@ -7,11 +7,17 @@ export default [
                 sourceType: 'module'
             }
         ],
-        rules: [
-            {
-                semi: ["error", "always"] ,
-                quotes: ['error', 'single']
-            }
-        ]
+        rules: {
+            "0": ["error", {
+                "semi": [
+                    "error",
+                    "always"
+                ],
+                "quotes": [
+                    "error",
+                    "single"
+                ]
+            }]
+        }
     }
 ]
