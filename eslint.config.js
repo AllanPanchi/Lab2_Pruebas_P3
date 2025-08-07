@@ -8,8 +8,10 @@ export default [
             }
         ],
         rules: [
-            { semi: ["error", "always"] },
-            { quotes: ['error', 'single'] }
+            {
+                semi: ["error", "always"] ,
+                quotes: ['error', 'single']
+            }
         ]
     }
 ]
