@@ -1,8 +1,5 @@
-const { default: it } = require('node:test');
-const add = require('./sum').default;
+const add = require('./sum');
 
-describe('Suma', () => {
-    it('Suma 1 + 2 = 3', () => {
-        expect.equal(add(1, 2), 3);
+test('Suma 1 + 2 = 3', () => {
+        expect(add(1, 2)).toBe(3);
     });
-});
